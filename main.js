@@ -41,7 +41,7 @@ function gotResult(error, results){
     else{
         console.log(results);
         document.getElementById("status").innerHTML = results[0].label;
-        prediction_1= result[0].label;
+        prediction_1= results[0].label;
         if(prediction_1 == "Entry Accepted"){
             document.getElementById("update_emoji").innerHTML= "&#128567";
         }
