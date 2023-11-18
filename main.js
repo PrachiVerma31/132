@@ -45,7 +45,7 @@ function gotResult(error, results){
         if(prediction_1 == "Entry Accepted"){
             document.getElementById("update_emoji").innerHTML= "&#128567";
         }
-        if(prediction_2 == "Entry Denied"){
+        if(prediction_1 == "Entry Denied"){
             document.getElementById("update_emoji").innerHTML= "&#128473";
         }
     }
